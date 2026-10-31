@@ -1,0 +1,45 @@
+﻿id;titulo;autor;categoria;referencia_estimada_R$;preco_venda_R$;imagem;disponibilidade;observacoes
+1;Sociedade de Risco;Ulrich Beck;Leitura & literatura;70;35;conteudo/capas/livro-01.svg;disponivel;
+2;Sapiens — Uma Breve História da Humanidade;Yuval Noah Harari;Leitura & literatura;60;40;conteudo/capas/livro-02.svg;disponivel;
+3;Trinta Segundos sem Pensar no Medo;Pedro Pacífico;Leitura & literatura;50;25;conteudo/capas/livro-03.svg;disponivel;
+4;O Dilema do Porco-Espinho;Leandro Karnal;Leitura & literatura;50;25;conteudo/capas/livro-04.svg;disponivel;
+5;Como as Democracias Morrem;Steven Levitsky e Daniel Ziblatt;Leitura & literatura;60;40;conteudo/capas/livro-05.svg;disponivel;
+6;Desperte o Milionário que Há em Você;Carlos Wizard Martins;Leitura & literatura;40;20;conteudo/capas/livro-06.svg;disponivel;
+7;O Inferno Somos Nós;Leandro Karnal e Monja Coen;Leitura & literatura;45;25;conteudo/capas/livro-07.svg;disponivel;
+8;Nada Pode Me Ferir;David Goggins;Leitura & literatura;40;30;conteudo/capas/livro-08.svg;disponivel;
+9;Querido John;Nicholas Sparks;Leitura & literatura;40;20;conteudo/capas/livro-09.svg;disponivel;
+10;Assassin’s Creed: Renascença;Oliver Bowden;Leitura & literatura;45;25;conteudo/capas/livro-10.svg;disponivel;
+11;Assassin’s Creed: Irmandade;Oliver Bowden;Leitura & literatura;45;25;conteudo/capas/livro-11.svg;disponivel;
+12;Evandro Guedes — título a confirmar;Evandro Guedes;Leitura & literatura;0;15;conteudo/capas/livro-12.svg;disponivel;Título/edição a confirmar com o vendedor.
+13;Passe Já — 5.000 Questões, Vol. 2 (2018);Alfacon;Concursos & direito;110;30;conteudo/capas/livro-13.svg;disponivel;
+14;Passe Já — 5.000 Questões, outro exemplar;Alfacon;Concursos & direito;110;30;conteudo/capas/livro-14.svg;disponivel;Título/edição a confirmar com o vendedor.
+15;Vade Mecum Rideel (2022);Rideel;Concursos & direito;180;30;conteudo/capas/livro-15.svg;disponivel;
+16;Carreiras Policiais PRF/PC — Vol. 1;Alfacon;Concursos & direito;115;40;conteudo/capas/livro-16.svg;disponivel;
+17;Carreiras Policiais PRF/PC — Vol. 2;Alfacon;Concursos & direito;110;40;conteudo/capas/livro-17.svg;disponivel;
+18;Carreiras Policiais 2020;Alfacon;Concursos & direito;130;35;conteudo/capas/livro-18.svg;disponivel;
+19;Código Alfacon (2018);Alfacon;Concursos & direito;100;20;conteudo/capas/livro-19.svg;disponivel;
+20;5.332 Questões — Carreiras Policiais;Alfacon;Concursos & direito;100;35;conteudo/capas/livro-20.svg;disponivel;
+21;Legislação Penal Especial;Para concursos;Concursos & direito;65;20;conteudo/capas/livro-21.svg;disponivel;
+22;Direito Penal — 1.431 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-22.svg;disponivel;
+23;Direito Penal — Parte Geral e Especial;Para concursos;Concursos & direito;80;25;conteudo/capas/livro-23.svg;disponivel;
+24;Direito Processual Penal;Para concursos;Concursos & direito;75;20;conteudo/capas/livro-24.svg;disponivel;
+25;Direito Processual Penal — 1.453 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-25.svg;disponivel;
+26;Direito Administrativo — 1.563 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-26.svg;disponivel;
+27;Língua Portuguesa — 1.731 Questões;Provas e Concursos;Concursos & direito;70;30;conteudo/capas/livro-27.svg;disponivel;
+28;Informática — 1.106 Questões;Provas e Concursos;Concursos & direito;65;20;conteudo/capas/livro-28.svg;disponivel;
+29;Raciocínio Lógico-Matemático — 1.075 Questões;Provas e Concursos;Concursos & direito;70;30;conteudo/capas/livro-29.svg;disponivel;
+30;Matemática de A a Z;André Arruda e Javert Falco;Concursos & direito;70;35;conteudo/capas/livro-30.svg;disponivel;
+31;Gramática de A a Z — Exemplar 1;Alexandre Soares;Concursos & direito;75;35;conteudo/capas/livro-31.svg;disponivel;
+32;Gramática de A a Z — Exemplar 2;Alexandre Soares;Concursos & direito;75;35;conteudo/capas/livro-32.svg;disponivel;
+33;Teoria & Texto — Redação;Para concursos;Concursos & direito;60;25;conteudo/capas/livro-33.svg;disponivel;
+34;Interpretação Textual;Arnaldo dos Santos e Alexandre Soares;Concursos & direito;45;20;conteudo/capas/livro-34.svg;disponivel;
+35;Questões de Bolso — PRF;Para concursos;Concursos & direito;35;15;conteudo/capas/livro-35.svg;disponivel;
+36;PC/RS — Escrivão e Inspetor, Vol. 1;Para concursos;Concursos & direito;90;25;conteudo/capas/livro-36.svg;disponivel;
+37;PC/RS — Escrivão e Inspetor, Vol. 2;Para concursos;Concursos & direito;90;25;conteudo/capas/livro-37.svg;disponivel;
+38;Upgrade — Vol. 2;Para concursos;Concursos & direito;60;20;conteudo/capas/livro-38.svg;disponivel;
+39;Autodesk 3DS Max 8;Adriana Vieira;Técnicos & outros;90;20;conteudo/capas/livro-39.svg;disponivel;
+40;Design de Personagens para Games — Vol. 1;Alessandro Lima;Técnicos & outros;75;30;conteudo/capas/livro-40.svg;disponivel;
+41;Estatuto da Cidade;Legislação;Técnicos & outros;40;15;conteudo/capas/livro-41.svg;disponivel;
+42;Gestão do Conhecimento — título a confirmar;Técnico;Técnicos & outros;60;20;conteudo/capas/livro-42.svg;disponivel;Título/edição a confirmar com o vendedor.
+43;Apostila HP 12C;Material didático;Técnicos & outros;35;15;conteudo/capas/livro-43.svg;disponivel;
+44;Caderno de Questões / Simulado Alfacon;Alfacon;Técnicos & outros;40;15;conteudo/capas/livro-44.svg;disponivel;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 800" width="560" height="800" role="img" aria-label="Capa ilustrativa: Assassin’s Creed: Irmandade">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243B57"/><stop offset="1" stop-color="#6599B6"/></linearGradient><pattern id="paper" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V40" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern></defs>
+ <rect width="560" height="800" fill="url(#bg)"/><rect width="560" height="800" fill="url(#paper)"/><rect x="0" y="0" width="18" height="800" fill="#111" opacity=".18"/>
+ <g><g opacity=".12" fill="white"><rect x="160" y="76" width="56" height="252" rx="10" transform="rotate(28 160 76)"/><rect x="260" y="65" width="56" height="252" rx="10" transform="rotate(28 260 65)"/><rect x="360" y="50" width="56" height="252" rx="10" transform="rotate(28 360 50)"/></g></g><rect x="55" y="68" width="92" height="6" rx="3" fill="#F6CF82"/>
+ <text x="55" y="113" fill="white" opacity=".9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" letter-spacing="3">SEBO SCHULTZ</text>
+ <text x="55" y="155" fill="#F6CF82" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="16" letter-spacing="1.7">LITERATURA & IDEIAS</text>
+ <rect x="0" y="288" width="560" height="410" fill="#071a18" opacity=".34"/>
+ <text x="55" y="370" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="43" letter-spacing="-1.5"><tspan x="55" dy="0">Assassin’s Creed:</tspan><tspan x="55" dy="50">Irmandade</tspan></text>
+ <path d="M55 702 H505" stroke="#F6CF82" stroke-opacity=".7" stroke-width="2"/>
+ <text x="55" y="740" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="20">Oliver Bowden</text>
+ <text x="55" y="777" fill="#fff" opacity=".75" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="1.1">CAPA ILUSTRATIVA • NÃO OFICIAL</text>
+ </svg>
