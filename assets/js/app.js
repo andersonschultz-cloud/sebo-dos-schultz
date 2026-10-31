@@ -7,11 +7,19 @@
  const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const normalize=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
  const el=id=>document.getElementById(id);
- const state={term:'',category:'Todos os livros',sort:'default',selected:new Set()};
+ const SAVED_KEY='sebo-schultz-selecao-v2';
+ function restoreSelection(){
+  try {const ids=JSON.parse(localStorage.getItem(SAVED_KEY)||'[]');return new Set(Array.isArray(ids)?ids.filter(id=>books.some(b=>b.id===id&&b.status!=='vendido')):[]);}catch{return new Set();}
+ }
+ const state={term:'',category:'Todos os livros',sort:'default',selected:restoreSelection()};
+ const saveSelection=()=>{try{localStorage.setItem(SAVED_KEY,JSON.stringify([...state.selected]));}catch{}};
  const categoryLabels={'Leitura & literatura':'Literatura & ideias','Concursos & direito':'Concursos & direito','Técnicos & outros':'Técnicos & outros'};
  const categories=['Todos os livros',...new Set(books.map(b=>b.category))];
  const calcTotal=()=>books.filter(b=>state.selected.has(b.id)).reduce((acc,b)=>acc+(Number(b.price)||0),0);
  const available=book=>book.status!=='vendido';
+ const imageSrc=book=>book.coverOnline||book.cover;
+ const coverAlt=book=>book.coverOnline?`Capa editorial de referência para ${book.title}; confirme a edição do exemplar`:`Capa ilustrativa de ${book.title}`;
+ const coverNote=book=>book.coverOnline?'CAPA EDITORIAL • REFERÊNCIA':'CAPA ILUSTRATIVA';
  const whatsapp=(message)=>`https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
  const toast=(msg)=>{const t=el('toast'); t.textContent=msg;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),2800);};
  function filtered(){let arr=books.filter(b=>(state.category==='Todos os livros'||b.category===state.category) && normalize(`${b.title} ${b.author} ${b.category}`).includes(normalize(state.term)));
@@ -23,7 +31,7 @@
  }
  function card(b){const chosen=state.selected.has(b.id);const sold=!available(b);
   return `<article class="book-card" aria-label="${esc(b.title)}">
-   <div class="cover-zone"><span class="tag ${sold?'tag-muted':''}">${sold?'VENDIDO':'SEBO • USADO'}</span><img src="${esc(b.cover)}" alt="Ilustração da capa de ${esc(b.title)}" loading="lazy" decoding="async" width="560" height="800"></div>
+   <div class="cover-zone"><span class="tag ${sold?'tag-muted':''}">${sold?'VENDIDO':'SEBO • USADO'}</span><img src="${esc(imageSrc(b))}" alt="${esc(coverAlt(b))}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="560" height="800" onerror="this.onerror=null;this.src='${esc(b.cover)}';if(this.nextElementSibling){this.nextElementSibling.textContent='CAPA ILUSTRATIVA';this.nextElementSibling.classList.remove('official-note');}"><span class="cover-note ${b.coverOnline?'official-note':''}">${coverNote(b)}</span></div>
    <div class="book-body"><div class="book-cat">${esc(categoryLabels[b.category]||b.category)}</div>
    <h3>${esc(b.title)}</h3><p class="book-author">${esc(b.author)}</p>
    <div class="book-condition">${esc(b.condition||'Usado · boas condições')}</div>
@@ -39,18 +47,18 @@
  function selectedBooks(){return books.filter(b=>state.selected.has(b.id));}
  function selectedMessage(){const arr=selectedBooks();const lines=arr.map((b,i)=>`${i+1}. ${b.title} — ${money(b.price)}`);return `Olá! Encontrei estes livros no Sebo dos Schultz e gostaria de verificar disponibilidade:\n\n${lines.join('\n')}\n\nTotal estimado: ${money(calcTotal())}\n\nPode confirmar o estado dos livros e como combinar a entrega?`;}
  function renderDialog(){const arr=selectedBooks();if(!arr.length){el('selection-dialog').close();return;}
-  el('dialog-items').innerHTML=arr.map(b=>`<div class="dialog-item"><img src="${esc(b.cover)}" alt="" width="53" height="75"><div class="dialog-item-info"><strong>${esc(b.title)}</strong><small>${esc(b.author)}</small></div><strong class="dialog-item-price">${money(b.price)}</strong><button type="button" data-remove="${b.id}" aria-label="Remover ${esc(b.title)}">×</button></div>`).join('');
+  el('dialog-items').innerHTML=arr.map(b=>`<div class="dialog-item"><img src="${esc(imageSrc(b))}" alt="" width="53" height="75" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${esc(b.cover)}';"><div class="dialog-item-info"><strong>${esc(b.title)}</strong><small>${esc(b.author)}</small></div><strong class="dialog-item-price">${money(b.price)}</strong><button type="button" data-remove="${b.id}" aria-label="Remover ${esc(b.title)}">×</button></div>`).join('');
   el('dialog-total').textContent=money(calcTotal());el('dialog-whatsapp').href=whatsapp(selectedMessage());
  }
  function openDialog(){renderDialog();el('selection-dialog').showModal();}
  el('categories').addEventListener('click',ev=>{const b=ev.target.closest('[data-category]');if(!b)return;state.category=b.dataset.category;render();});
  el('search').addEventListener('input',ev=>{state.term=ev.target.value;render();});
  el('sort').addEventListener('change',ev=>{state.sort=ev.target.value;render();});
- el('book-grid').addEventListener('click',ev=>{const b=ev.target.closest('[data-select]');if(!b)return;const id=Number(b.dataset.select);const book=books.find(x=>x.id===id);if(!book||!available(book))return;if(state.selected.has(id))state.selected.delete(id);else state.selected.add(id);render();toast(state.selected.has(id)?'Adicionado à sua seleção.':'Livro removido da seleção.');});
+ el('book-grid').addEventListener('click',ev=>{const b=ev.target.closest('[data-select]');if(!b)return;const id=Number(b.dataset.select);const book=books.find(x=>x.id===id);if(!book||!available(book))return;if(state.selected.has(id))state.selected.delete(id);else state.selected.add(id);saveSelection();render();toast(state.selected.has(id)?'Adicionado à sua seleção.':'Livro removido da seleção.');});
  el('clear-filters').addEventListener('click',()=>{state.category='Todos os livros';state.term='';state.sort='default';el('search').value='';el('sort').value='default';render();});
- el('clear-cart').addEventListener('click',()=>{state.selected.clear();render();toast('Seleção esvaziada.');});
+ el('clear-cart').addEventListener('click',()=>{state.selected.clear();saveSelection();render();toast('Seleção esvaziada.');});
  el('cart-open').addEventListener('click',openDialog);
  el('dialog-close').addEventListener('click',()=>el('selection-dialog').close());
- el('selection-dialog').addEventListener('click',ev=>{if(ev.target===el('selection-dialog'))el('selection-dialog').close();const btn=ev.target.closest('[data-remove]');if(btn){state.selected.delete(Number(btn.dataset.remove));render();renderDialog();}});
+ el('selection-dialog').addEventListener('click',ev=>{if(ev.target===el('selection-dialog'))el('selection-dialog').close();const btn=ev.target.closest('[data-remove]');if(btn){state.selected.delete(Number(btn.dataset.remove));saveSelection();render();renderDialog();}});
  el('year').textContent=new Date().getFullYear();el('hero-count').textContent=books.length;render();
 })();

@@ -17,3 +17,5 @@ Quero que você atue como desenvolvedor(a) frontend sênior, UX designer e espec
 **Ideias de evolução**: filtro por faixa de preço; quantidade em estoque; visualização ampliada de foto REAL do exemplar; faixa de descontos por kits (somente quando aprovada pelo vendedor); compartilhamento de cada livro; SEO e metadados Open Graph; animações discretas; página de perguntas frequentes; melhorias para leitores de tela e Lighthouse.
 
 Antes de entregar, valide todos os 44 cards, todos os caminhos das imagens, a mensagem de WhatsApp, contagem, soma, funcionamento mobile e fluxo de publicar no GitHub Pages. Documente qualquer título/edição incerto(a).
+
+**Versão atual (v2):** o catálogo usa arquivos `.webp` para cada capa; `.svg` só como fonte editável. Ao alterar qualquer imagem, valide o formato, o caminho relativo e execute `python scripts/verificar_site.py`. Todas as imagens exibidas precisam ser testadas em desktop e mobile, além de links e seleção persistente.
