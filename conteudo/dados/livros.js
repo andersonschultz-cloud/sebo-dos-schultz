@@ -1,4 +1,7 @@
-/* Edite este arquivo para alterar preços, títulos e disponibilidade. */
+/* Sebo dos Schultz v3 - capas editoriais remotas quando identificadas.
+ * "cover" é sempre a ilustração local de segurança; "coverOnline" é opcional.
+ * Capas online são referências de identificação; edição física deve ser confirmada.
+ */
 window.SCHULTZ_BOOKS = [
   {
     "id": 1,
@@ -7,12 +10,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Leitura & literatura",
     "reference": 70,
-    "cover": "conteudo/capas/livro-01.svg",
+    "cover": "conteudo/capas/livro-01.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-01.webp",
+    "coverOnline": "https://photos.enjoei.com.br/public/1200x1200/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80OTkzOTA4LzA3YTcwOGVhZDA1YWM2ZGE1NGNjOTYyMjMzOTI1YTg1LmpwZw",
+    "coverSource": "https://editora34.com.br/livro/567"
   },
   {
     "id": 2,
@@ -21,12 +27,15 @@ window.SCHULTZ_BOOKS = [
     "price": 40,
     "category": "Leitura & literatura",
     "reference": 60,
-    "cover": "conteudo/capas/livro-02.svg",
+    "cover": "conteudo/capas/livro-02.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-02.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m62rqfkbf92qe5",
+    "coverSource": "https://www.lpm.com.br/site/default.asp?ID=544407&Template=../livros/layout_produto.asp"
   },
   {
     "id": 3,
@@ -35,12 +44,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Leitura & literatura",
     "reference": 50,
-    "cover": "conteudo/capas/livro-03.svg",
+    "cover": "conteudo/capas/livro-03.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-03.webp",
+    "coverOnline": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1563522-1000-1000/1055776.jpg?v=638485354945530000",
+    "coverSource": "https://intrinseca.com.br/livro/trinta-segundos-sem-pensar-no-medo-memorias-de-um-leitor/"
   },
   {
     "id": 4,
@@ -49,12 +61,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Leitura & literatura",
     "reference": 50,
-    "cover": "conteudo/capas/livro-04.svg",
+    "cover": "conteudo/capas/livro-04.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-04.webp",
+    "coverOnline": "https://www.livrariasfamiliacrista.com.br/cdn/shop/files/o_dilema_do_porco_espinho_leandro_karnal_16511_1_0ed16d3f2d695bf4a78c773e6f6d6d44.jpg?v=1782160394",
+    "coverSource": "https://www.livrariasfamiliacrista.com.br/products/o-dilema-do-porco-espinho-leandro-karnal"
   },
   {
     "id": 5,
@@ -63,12 +78,15 @@ window.SCHULTZ_BOOKS = [
     "price": 40,
     "category": "Leitura & literatura",
     "reference": 60,
-    "cover": "conteudo/capas/livro-05.svg",
+    "cover": "conteudo/capas/livro-05.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-05.webp",
+    "coverOnline": "https://images.yampi.me/assets/stores/jk-livraria-e-papelaria/uploads/images/livro-como-as-democracias-morrem-steven-levitsky-daniel-ziblatt-679997f90aa6f-large.jpg",
+    "coverSource": "https://www.companhiadasletras.com.br/livro/9788537818008/"
   },
   {
     "id": 6,
@@ -77,12 +95,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Leitura & literatura",
     "reference": 40,
-    "cover": "conteudo/capas/livro-06.svg",
+    "cover": "conteudo/capas/livro-06.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-06.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-81ztc-mj7rsojz1vcx45",
+    "coverSource": "https://shopee.com.br/Livro-Desperte-O-Milion%C3%A1rio-Que-H%C3%A1-Em-Voc%C3%AA-Carlos-Wizard-Martins-i.328625304.22394239970"
   },
   {
     "id": 7,
@@ -91,12 +112,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Leitura & literatura",
     "reference": 45,
-    "cover": "conteudo/capas/livro-07.svg",
+    "cover": "conteudo/capas/livro-07.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-07.webp",
+    "coverOnline": "https://livrariascuritiba.vteximg.com.br/arquivos/ids/2035368-1000-1000/LV429260.jpg?v=638822963560230000",
+    "coverSource": "https://www.livrariascuritiba.com.br/o-inferno-somos-nos-lv429260/p"
   },
   {
     "id": 8,
@@ -105,12 +129,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Leitura & literatura",
     "reference": 40,
-    "cover": "conteudo/capas/livro-08.svg",
+    "cover": "conteudo/capas/livro-08.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-08.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/sg-11134201-7rdw1-m0j6oksg9hqae8",
+    "coverSource": "https://shopee.com.br/Livro-Nada-Pode-Me-Ferir-de-David-Goggins-i.893869193.22493340969"
   },
   {
     "id": 9,
@@ -119,12 +146,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Leitura & literatura",
     "reference": 40,
-    "cover": "conteudo/capas/livro-09.svg",
+    "cover": "conteudo/capas/livro-09.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-09.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/e90d4caaa38eabeba045a52dd2455e21",
+    "coverSource": "https://shopee.com.br/Livro-usado-QUERIDO-JOHN-de-Nicholas-Sparks-i.394092288.8786856215"
   },
   {
     "id": 10,
@@ -133,12 +163,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Leitura & literatura",
     "reference": 45,
-    "cover": "conteudo/capas/livro-10.svg",
+    "cover": "conteudo/capas/livro-10.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-10.webp",
+    "coverOnline": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/708700-800-800/661475_ampliada.jpg?v=637262525538600000",
+    "coverSource": "https://www.martinsfontespaulista.com.br/assassin-s-creed--renascenca-661475/p"
   },
   {
     "id": 11,
@@ -147,12 +180,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Leitura & literatura",
     "reference": 45,
-    "cover": "conteudo/capas/livro-11.svg",
+    "cover": "conteudo/capas/livro-11.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-11.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m670jla9dweo05",
+    "coverSource": "https://shopee.com.br/Livro-Assassin%27s-Creed-Irmandade-%28Oliver-Bowden%29-i.1318291503.23198203788"
   },
   {
     "id": 12,
@@ -161,12 +197,15 @@ window.SCHULTZ_BOOKS = [
     "price": 15,
     "category": "Leitura & literatura",
     "reference": 0,
-    "cover": "conteudo/capas/livro-12.svg",
+    "cover": "conteudo/capas/livro-12.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": "Título/edição a confirmar com o vendedor."
+    "notes": "Título/edição a confirmar com o vendedor.",
+    "coverFallback": "conteudo/capas/livro-12.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 13,
@@ -175,12 +214,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Concursos & direito",
     "reference": 110,
-    "cover": "conteudo/capas/livro-13.svg",
+    "cover": "conteudo/capas/livro-13.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-13.webp",
+    "coverOnline": "https://img.olx.com.br/images/73/732548360833091.jpg",
+    "coverSource": "https://sebodomessias.com.br/livro/direito/passe-ja-volume-2-carreiras-policiais-1"
   },
   {
     "id": 14,
@@ -189,12 +231,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Concursos & direito",
     "reference": 110,
-    "cover": "conteudo/capas/livro-14.svg",
+    "cover": "conteudo/capas/livro-14.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": "Título/edição a confirmar com o vendedor."
+    "notes": "Título/edição a confirmar com o vendedor.",
+    "coverFallback": "conteudo/capas/livro-14.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 15,
@@ -203,12 +248,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Concursos & direito",
     "reference": 180,
-    "cover": "conteudo/capas/livro-15.svg",
+    "cover": "conteudo/capas/livro-15.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-15.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 16,
@@ -217,12 +265,15 @@ window.SCHULTZ_BOOKS = [
     "price": 40,
     "category": "Concursos & direito",
     "reference": 115,
-    "cover": "conteudo/capas/livro-16.svg",
+    "cover": "conteudo/capas/livro-16.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-16.webp",
+    "coverOnline": "https://static.estantevirtual.com.br/book/00/0R1-5411-000/0R1-5411-000_detail1.jpg?ts=1712781718790",
+    "coverSource": "https://www.estantevirtual.com.br/busca/prf"
   },
   {
     "id": 17,
@@ -231,12 +282,15 @@ window.SCHULTZ_BOOKS = [
     "price": 40,
     "category": "Concursos & direito",
     "reference": 110,
-    "cover": "conteudo/capas/livro-17.svg",
+    "cover": "conteudo/capas/livro-17.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-17.webp",
+    "coverOnline": "https://cf.shopee.com.br/file/7a765908579a882e5b9facf5f6414c18",
+    "coverSource": "https://www.circulolivraria.com.br/livros/carreiras-policiais-pf-prf-pc-pm-voluem-2-3a-edicao-2020"
   },
   {
     "id": 18,
@@ -245,12 +299,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Concursos & direito",
     "reference": 130,
-    "cover": "conteudo/capas/livro-18.svg",
+    "cover": "conteudo/capas/livro-18.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-18.webp",
+    "coverOnline": "https://cf.shopee.com.br/file/7a765908579a882e5b9facf5f6414c18",
+    "coverSource": "https://www.estantevirtual.com.br/livro/carreiras-policiais-2020-12W-0272-000-BK"
   },
   {
     "id": 19,
@@ -259,12 +316,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 100,
-    "cover": "conteudo/capas/livro-19.svg",
+    "cover": "conteudo/capas/livro-19.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-19.webp",
+    "coverOnline": "https://cdn.awsli.com.br/2500x2500/2495/2495784/produto/271677401/369846-ck0knys1ec.jpg",
+    "coverSource": "https://www.livrariaflorence.com.br/produto/livro-codigo-alfacon-carreiras-policiais-2018-equipe-alfacon-183458"
   },
   {
     "id": 20,
@@ -273,12 +333,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Concursos & direito",
     "reference": 100,
-    "cover": "conteudo/capas/livro-20.svg",
+    "cover": "conteudo/capas/livro-20.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-20.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 21,
@@ -287,12 +350,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 65,
-    "cover": "conteudo/capas/livro-21.svg",
+    "cover": "conteudo/capas/livro-21.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-21.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 22,
@@ -301,12 +367,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-22.svg",
+    "cover": "conteudo/capas/livro-22.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-22.webp",
+    "coverOnline": "https://photos.enjoei.com.br/livro-de-questoes-direito-penal/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85MjMyNDg0LzBlZmYxZmRjNjFhY2FjZmJmZThkOGYxZDUyYjg3N2NiLmpwZw",
+    "coverSource": "https://www.enjoei.com.br/p/livro-de-questoes-direito-penal-84905729"
   },
   {
     "id": 23,
@@ -315,12 +384,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 80,
-    "cover": "conteudo/capas/livro-23.svg",
+    "cover": "conteudo/capas/livro-23.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-23.webp",
+    "coverOnline": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1439076-800-800/980468.jpg?v=637780558393800000",
+    "coverSource": "https://www.martinsfontespaulista.com.br/direito-penal-para-concursos-980468/p"
   },
   {
     "id": 24,
@@ -329,12 +401,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-24.svg",
+    "cover": "conteudo/capas/livro-24.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-24.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhnm0yfyi48z29",
+    "coverSource": "https://shopee.com.br/Livro-Direito-Processual-Penal-para-concursos-alfacon-i.1339172374.58251252513"
   },
   {
     "id": 25,
@@ -343,12 +418,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-25.svg",
+    "cover": "conteudo/capas/livro-25.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-25.webp",
+    "coverOnline": "https://img.olx.com.br/images/26/263685510901984.jpg",
+    "coverSource": "https://df.olx.com.br/distrito-federal-e-regiao/livros-e-revistas/livro-de-concurso-policial-1491313277"
   },
   {
     "id": 26,
@@ -357,12 +435,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-26.svg",
+    "cover": "conteudo/capas/livro-26.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-26.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 27,
@@ -371,12 +452,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Concursos & direito",
     "reference": 70,
-    "cover": "conteudo/capas/livro-27.svg",
+    "cover": "conteudo/capas/livro-27.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-27.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 28,
@@ -385,12 +469,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 65,
-    "cover": "conteudo/capas/livro-28.svg",
+    "cover": "conteudo/capas/livro-28.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-28.webp",
+    "coverOnline": "https://img.olx.com.br/images/30/307690744084299.jpg",
+    "coverSource": "https://ce.olx.com.br/fortaleza-e-regiao/livros-e-revistas/livro-alfacon-questoes-de-informatica-para-concursos-1486876754"
   },
   {
     "id": 29,
@@ -399,12 +486,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Concursos & direito",
     "reference": 70,
-    "cover": "conteudo/capas/livro-29.svg",
+    "cover": "conteudo/capas/livro-29.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-29.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgt5nq2064g0bc",
+    "coverSource": "https://shopee.com.br/Provas-e-concursos-Racioc%C3%ADnio-l%C3%B3gico-matem%C3%A1tico-Aperfei%C3%A7oe-seu-Racioc%C3%ADnio-L%C3%B3gico-Matem%C3%A1tico-para-concursos-i.658352363.23299030386"
   },
   {
     "id": 30,
@@ -413,12 +503,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Concursos & direito",
     "reference": 70,
-    "cover": "conteudo/capas/livro-30.svg",
+    "cover": "conteudo/capas/livro-30.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-30.webp",
+    "coverOnline": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1232863-800-800/878305_ampliada.jpg?v=637302120371400000",
+    "coverSource": "https://www.martinsfontespaulista.com.br/matematica-de-a-a-z-878305/p"
   },
   {
     "id": 31,
@@ -427,12 +520,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-31.svg",
+    "cover": "conteudo/capas/livro-31.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-31.webp",
+    "coverOnline": "https://http2.mlstatic.com/D_NQ_NP_626030-MLU50456229026_062022-O.webp",
+    "coverSource": "https://www.mercadolivre.com.br/livro-gramatica-de-a-a-z-de-soares-alexandre-editora-jafar-sistemas-de-ensino-e-cursos-livres-capa-mole-2019/p/MLB19270886"
   },
   {
     "id": 32,
@@ -441,12 +537,15 @@ window.SCHULTZ_BOOKS = [
     "price": 35,
     "category": "Concursos & direito",
     "reference": 75,
-    "cover": "conteudo/capas/livro-32.svg",
+    "cover": "conteudo/capas/livro-32.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-32.webp",
+    "coverOnline": "https://http2.mlstatic.com/D_NQ_NP_626030-MLU50456229026_062022-O.webp",
+    "coverSource": "https://www.mercadolivre.com.br/livro-gramatica-de-a-a-z-de-soares-alexandre-editora-jafar-sistemas-de-ensino-e-cursos-livres-capa-mole-2019/p/MLB19270886"
   },
   {
     "id": 33,
@@ -455,12 +554,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 60,
-    "cover": "conteudo/capas/livro-33.svg",
+    "cover": "conteudo/capas/livro-33.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-33.webp",
+    "coverOnline": "https://images-na.ssl-images-amazon.com/images/I/81JKKduZ6-L.jpg",
+    "coverSource": "https://indicalivros.com/livros/teoria-e-texto-redacao-giancarla-bombonato-janaina-arruda"
   },
   {
     "id": 34,
@@ -469,12 +571,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 45,
-    "cover": "conteudo/capas/livro-34.svg",
+    "cover": "conteudo/capas/livro-34.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
-    "coverType": "ilustrativa",
-    "notes": ""
+    "coverType": "editorial-referencia",
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-34.webp",
+    "coverOnline": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5bz2vnu2she29",
+    "coverSource": "https://shopee.com.br/Livro-Interpreta%C3%A7%C3%A3o-textual-Linhas-e-Entrelinhas-Alexandre-Soares-Alfacon-i.487500087.23598156547"
   },
   {
     "id": 35,
@@ -483,12 +588,15 @@ window.SCHULTZ_BOOKS = [
     "price": 15,
     "category": "Concursos & direito",
     "reference": 35,
-    "cover": "conteudo/capas/livro-35.svg",
+    "cover": "conteudo/capas/livro-35.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-35.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 36,
@@ -497,12 +605,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 90,
-    "cover": "conteudo/capas/livro-36.svg",
+    "cover": "conteudo/capas/livro-36.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-36.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 37,
@@ -511,12 +622,15 @@ window.SCHULTZ_BOOKS = [
     "price": 25,
     "category": "Concursos & direito",
     "reference": 90,
-    "cover": "conteudo/capas/livro-37.svg",
+    "cover": "conteudo/capas/livro-37.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-37.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 38,
@@ -525,12 +639,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Concursos & direito",
     "reference": 60,
-    "cover": "conteudo/capas/livro-38.svg",
+    "cover": "conteudo/capas/livro-38.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-38.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 39,
@@ -539,12 +656,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Técnicos & outros",
     "reference": 90,
-    "cover": "conteudo/capas/livro-39.svg",
+    "cover": "conteudo/capas/livro-39.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-39.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 40,
@@ -553,12 +673,15 @@ window.SCHULTZ_BOOKS = [
     "price": 30,
     "category": "Técnicos & outros",
     "reference": 75,
-    "cover": "conteudo/capas/livro-40.svg",
+    "cover": "conteudo/capas/livro-40.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-40.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 41,
@@ -567,12 +690,15 @@ window.SCHULTZ_BOOKS = [
     "price": 15,
     "category": "Técnicos & outros",
     "reference": 40,
-    "cover": "conteudo/capas/livro-41.svg",
+    "cover": "conteudo/capas/livro-41.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-41.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 42,
@@ -581,12 +707,15 @@ window.SCHULTZ_BOOKS = [
     "price": 20,
     "category": "Técnicos & outros",
     "reference": 60,
-    "cover": "conteudo/capas/livro-42.svg",
+    "cover": "conteudo/capas/livro-42.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": "Título/edição a confirmar com o vendedor."
+    "notes": "Título/edição a confirmar com o vendedor.",
+    "coverFallback": "conteudo/capas/livro-42.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 43,
@@ -595,12 +724,15 @@ window.SCHULTZ_BOOKS = [
     "price": 15,
     "category": "Técnicos & outros",
     "reference": 35,
-    "cover": "conteudo/capas/livro-43.svg",
+    "cover": "conteudo/capas/livro-43.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-43.webp",
+    "coverOnline": "",
+    "coverSource": ""
   },
   {
     "id": 44,
@@ -609,11 +741,14 @@ window.SCHULTZ_BOOKS = [
     "price": 15,
     "category": "Técnicos & outros",
     "reference": 40,
-    "cover": "conteudo/capas/livro-44.svg",
+    "cover": "conteudo/capas/livro-44.webp",
     "condition": "Usado · boas condições",
     "status": "disponivel",
     "verifiedEdition": false,
     "coverType": "ilustrativa",
-    "notes": ""
+    "notes": "",
+    "coverFallback": "conteudo/capas/livro-44.webp",
+    "coverOnline": "",
+    "coverSource": ""
   }
 ];

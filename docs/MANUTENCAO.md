@@ -33,3 +33,12 @@ Rode `python scripts/verificar_site.py` dentro da pasta principal. Ele confere a
 - Preço não muda: confirme alteração em `livros.js` e atualize a aba usando recarga completa.
 - Link do WhatsApp: testes em desktop podem abrir WhatsApp Web; em celular, o aplicativo.
 - Imagens não oficiais: solicite fotos reais do exemplar antes da venda e troque as ilustrativas conforme tiver imagens.
+
+
+### Capas que não aparecem
+- O catálogo usa `conteudo/capas/livro-XX.webp`, formato suportado no GitHub Pages.
+- Confira a grafia do campo `cover` em `conteudo/dados/livros.js`. Caminhos respeitam maiúsculas/minúsculas.
+- O arquivo deve estar no repositório, na pasta `conteudo/capas/`.
+- Os `.svg` são artes-fonte de edição e não são usados pelo site. Todo SVG precisa de XML válido.
+- Execute `python scripts/verificar_site.py` antes de publicar.
+- Verifique a aba **Network** do navegador para identificar HTTP 404.

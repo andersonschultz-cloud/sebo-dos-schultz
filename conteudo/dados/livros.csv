@@ -1,45 +1,45 @@
-﻿id;titulo;autor;categoria;referencia_estimada_R$;preco_venda_R$;imagem;disponibilidade;observacoes
-1;Sociedade de Risco;Ulrich Beck;Leitura & literatura;70;35;conteudo/capas/livro-01.svg;disponivel;
-2;Sapiens — Uma Breve História da Humanidade;Yuval Noah Harari;Leitura & literatura;60;40;conteudo/capas/livro-02.svg;disponivel;
-3;Trinta Segundos sem Pensar no Medo;Pedro Pacífico;Leitura & literatura;50;25;conteudo/capas/livro-03.svg;disponivel;
-4;O Dilema do Porco-Espinho;Leandro Karnal;Leitura & literatura;50;25;conteudo/capas/livro-04.svg;disponivel;
-5;Como as Democracias Morrem;Steven Levitsky e Daniel Ziblatt;Leitura & literatura;60;40;conteudo/capas/livro-05.svg;disponivel;
-6;Desperte o Milionário que Há em Você;Carlos Wizard Martins;Leitura & literatura;40;20;conteudo/capas/livro-06.svg;disponivel;
-7;O Inferno Somos Nós;Leandro Karnal e Monja Coen;Leitura & literatura;45;25;conteudo/capas/livro-07.svg;disponivel;
-8;Nada Pode Me Ferir;David Goggins;Leitura & literatura;40;30;conteudo/capas/livro-08.svg;disponivel;
-9;Querido John;Nicholas Sparks;Leitura & literatura;40;20;conteudo/capas/livro-09.svg;disponivel;
-10;Assassin’s Creed: Renascença;Oliver Bowden;Leitura & literatura;45;25;conteudo/capas/livro-10.svg;disponivel;
-11;Assassin’s Creed: Irmandade;Oliver Bowden;Leitura & literatura;45;25;conteudo/capas/livro-11.svg;disponivel;
-12;Evandro Guedes — título a confirmar;Evandro Guedes;Leitura & literatura;0;15;conteudo/capas/livro-12.svg;disponivel;Título/edição a confirmar com o vendedor.
-13;Passe Já — 5.000 Questões, Vol. 2 (2018);Alfacon;Concursos & direito;110;30;conteudo/capas/livro-13.svg;disponivel;
-14;Passe Já — 5.000 Questões, outro exemplar;Alfacon;Concursos & direito;110;30;conteudo/capas/livro-14.svg;disponivel;Título/edição a confirmar com o vendedor.
-15;Vade Mecum Rideel (2022);Rideel;Concursos & direito;180;30;conteudo/capas/livro-15.svg;disponivel;
-16;Carreiras Policiais PRF/PC — Vol. 1;Alfacon;Concursos & direito;115;40;conteudo/capas/livro-16.svg;disponivel;
-17;Carreiras Policiais PRF/PC — Vol. 2;Alfacon;Concursos & direito;110;40;conteudo/capas/livro-17.svg;disponivel;
-18;Carreiras Policiais 2020;Alfacon;Concursos & direito;130;35;conteudo/capas/livro-18.svg;disponivel;
-19;Código Alfacon (2018);Alfacon;Concursos & direito;100;20;conteudo/capas/livro-19.svg;disponivel;
-20;5.332 Questões — Carreiras Policiais;Alfacon;Concursos & direito;100;35;conteudo/capas/livro-20.svg;disponivel;
-21;Legislação Penal Especial;Para concursos;Concursos & direito;65;20;conteudo/capas/livro-21.svg;disponivel;
-22;Direito Penal — 1.431 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-22.svg;disponivel;
-23;Direito Penal — Parte Geral e Especial;Para concursos;Concursos & direito;80;25;conteudo/capas/livro-23.svg;disponivel;
-24;Direito Processual Penal;Para concursos;Concursos & direito;75;20;conteudo/capas/livro-24.svg;disponivel;
-25;Direito Processual Penal — 1.453 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-25.svg;disponivel;
-26;Direito Administrativo — 1.563 Questões;Provas e Concursos;Concursos & direito;75;25;conteudo/capas/livro-26.svg;disponivel;
-27;Língua Portuguesa — 1.731 Questões;Provas e Concursos;Concursos & direito;70;30;conteudo/capas/livro-27.svg;disponivel;
-28;Informática — 1.106 Questões;Provas e Concursos;Concursos & direito;65;20;conteudo/capas/livro-28.svg;disponivel;
-29;Raciocínio Lógico-Matemático — 1.075 Questões;Provas e Concursos;Concursos & direito;70;30;conteudo/capas/livro-29.svg;disponivel;
-30;Matemática de A a Z;André Arruda e Javert Falco;Concursos & direito;70;35;conteudo/capas/livro-30.svg;disponivel;
-31;Gramática de A a Z — Exemplar 1;Alexandre Soares;Concursos & direito;75;35;conteudo/capas/livro-31.svg;disponivel;
-32;Gramática de A a Z — Exemplar 2;Alexandre Soares;Concursos & direito;75;35;conteudo/capas/livro-32.svg;disponivel;
-33;Teoria & Texto — Redação;Para concursos;Concursos & direito;60;25;conteudo/capas/livro-33.svg;disponivel;
-34;Interpretação Textual;Arnaldo dos Santos e Alexandre Soares;Concursos & direito;45;20;conteudo/capas/livro-34.svg;disponivel;
-35;Questões de Bolso — PRF;Para concursos;Concursos & direito;35;15;conteudo/capas/livro-35.svg;disponivel;
-36;PC/RS — Escrivão e Inspetor, Vol. 1;Para concursos;Concursos & direito;90;25;conteudo/capas/livro-36.svg;disponivel;
-37;PC/RS — Escrivão e Inspetor, Vol. 2;Para concursos;Concursos & direito;90;25;conteudo/capas/livro-37.svg;disponivel;
-38;Upgrade — Vol. 2;Para concursos;Concursos & direito;60;20;conteudo/capas/livro-38.svg;disponivel;
-39;Autodesk 3DS Max 8;Adriana Vieira;Técnicos & outros;90;20;conteudo/capas/livro-39.svg;disponivel;
-40;Design de Personagens para Games — Vol. 1;Alessandro Lima;Técnicos & outros;75;30;conteudo/capas/livro-40.svg;disponivel;
-41;Estatuto da Cidade;Legislação;Técnicos & outros;40;15;conteudo/capas/livro-41.svg;disponivel;
-42;Gestão do Conhecimento — título a confirmar;Técnico;Técnicos & outros;60;20;conteudo/capas/livro-42.svg;disponivel;Título/edição a confirmar com o vendedor.
-43;Apostila HP 12C;Material didático;Técnicos & outros;35;15;conteudo/capas/livro-43.svg;disponivel;
-44;Caderno de Questões / Simulado Alfacon;Alfacon;Técnicos & outros;40;15;conteudo/capas/livro-44.svg;disponivel;
+﻿id,title,author,category,price,reference,condition,status,cover,coverOnline,coverSource,coverType
+1,Sociedade de Risco,Ulrich Beck,Leitura & literatura,35,70,Usado · boas condições,disponivel,conteudo/capas/livro-01.webp,https://photos.enjoei.com.br/public/1200x1200/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80OTkzOTA4LzA3YTcwOGVhZDA1YWM2ZGE1NGNjOTYyMjMzOTI1YTg1LmpwZw,https://editora34.com.br/livro/567,editorial-referencia
+2,Sapiens — Uma Breve História da Humanidade,Yuval Noah Harari,Leitura & literatura,40,60,Usado · boas condições,disponivel,conteudo/capas/livro-02.webp,https://down-br.img.susercontent.com/file/br-11134207-7r98o-m62rqfkbf92qe5,https://www.lpm.com.br/site/default.asp?ID=544407&Template=../livros/layout_produto.asp,editorial-referencia
+3,Trinta Segundos sem Pensar no Medo,Pedro Pacífico,Leitura & literatura,25,50,Usado · boas condições,disponivel,conteudo/capas/livro-03.webp,https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1563522-1000-1000/1055776.jpg?v=638485354945530000,https://intrinseca.com.br/livro/trinta-segundos-sem-pensar-no-medo-memorias-de-um-leitor/,editorial-referencia
+4,O Dilema do Porco-Espinho,Leandro Karnal,Leitura & literatura,25,50,Usado · boas condições,disponivel,conteudo/capas/livro-04.webp,https://www.livrariasfamiliacrista.com.br/cdn/shop/files/o_dilema_do_porco_espinho_leandro_karnal_16511_1_0ed16d3f2d695bf4a78c773e6f6d6d44.jpg?v=1782160394,https://www.livrariasfamiliacrista.com.br/products/o-dilema-do-porco-espinho-leandro-karnal,editorial-referencia
+5,Como as Democracias Morrem,Steven Levitsky e Daniel Ziblatt,Leitura & literatura,40,60,Usado · boas condições,disponivel,conteudo/capas/livro-05.webp,https://images.yampi.me/assets/stores/jk-livraria-e-papelaria/uploads/images/livro-como-as-democracias-morrem-steven-levitsky-daniel-ziblatt-679997f90aa6f-large.jpg,https://www.companhiadasletras.com.br/livro/9788537818008/,editorial-referencia
+6,Desperte o Milionário que Há em Você,Carlos Wizard Martins,Leitura & literatura,20,40,Usado · boas condições,disponivel,conteudo/capas/livro-06.webp,https://down-br.img.susercontent.com/file/br-11134207-81ztc-mj7rsojz1vcx45,https://shopee.com.br/Livro-Desperte-O-Milion%C3%A1rio-Que-H%C3%A1-Em-Voc%C3%AA-Carlos-Wizard-Martins-i.328625304.22394239970,editorial-referencia
+7,O Inferno Somos Nós,Leandro Karnal e Monja Coen,Leitura & literatura,25,45,Usado · boas condições,disponivel,conteudo/capas/livro-07.webp,https://livrariascuritiba.vteximg.com.br/arquivos/ids/2035368-1000-1000/LV429260.jpg?v=638822963560230000,https://www.livrariascuritiba.com.br/o-inferno-somos-nos-lv429260/p,editorial-referencia
+8,Nada Pode Me Ferir,David Goggins,Leitura & literatura,30,40,Usado · boas condições,disponivel,conteudo/capas/livro-08.webp,https://down-br.img.susercontent.com/file/sg-11134201-7rdw1-m0j6oksg9hqae8,https://shopee.com.br/Livro-Nada-Pode-Me-Ferir-de-David-Goggins-i.893869193.22493340969,editorial-referencia
+9,Querido John,Nicholas Sparks,Leitura & literatura,20,40,Usado · boas condições,disponivel,conteudo/capas/livro-09.webp,https://down-br.img.susercontent.com/file/e90d4caaa38eabeba045a52dd2455e21,https://shopee.com.br/Livro-usado-QUERIDO-JOHN-de-Nicholas-Sparks-i.394092288.8786856215,editorial-referencia
+10,Assassin’s Creed: Renascença,Oliver Bowden,Leitura & literatura,25,45,Usado · boas condições,disponivel,conteudo/capas/livro-10.webp,https://martinsfontespaulista.vteximg.com.br/arquivos/ids/708700-800-800/661475_ampliada.jpg?v=637262525538600000,https://www.martinsfontespaulista.com.br/assassin-s-creed--renascenca-661475/p,editorial-referencia
+11,Assassin’s Creed: Irmandade,Oliver Bowden,Leitura & literatura,25,45,Usado · boas condições,disponivel,conteudo/capas/livro-11.webp,https://down-br.img.susercontent.com/file/br-11134207-7r98o-m670jla9dweo05,https://shopee.com.br/Livro-Assassin%27s-Creed-Irmandade-%28Oliver-Bowden%29-i.1318291503.23198203788,editorial-referencia
+12,Evandro Guedes — título a confirmar,Evandro Guedes,Leitura & literatura,15,0,Usado · boas condições,disponivel,conteudo/capas/livro-12.webp,,,ilustrativa
+13,"Passe Já — 5.000 Questões, Vol. 2 (2018)",Alfacon,Concursos & direito,30,110,Usado · boas condições,disponivel,conteudo/capas/livro-13.webp,https://img.olx.com.br/images/73/732548360833091.jpg,https://sebodomessias.com.br/livro/direito/passe-ja-volume-2-carreiras-policiais-1,editorial-referencia
+14,"Passe Já — 5.000 Questões, outro exemplar",Alfacon,Concursos & direito,30,110,Usado · boas condições,disponivel,conteudo/capas/livro-14.webp,,,ilustrativa
+15,Vade Mecum Rideel (2022),Rideel,Concursos & direito,30,180,Usado · boas condições,disponivel,conteudo/capas/livro-15.webp,,,ilustrativa
+16,Carreiras Policiais PRF/PC — Vol. 1,Alfacon,Concursos & direito,40,115,Usado · boas condições,disponivel,conteudo/capas/livro-16.webp,https://static.estantevirtual.com.br/book/00/0R1-5411-000/0R1-5411-000_detail1.jpg?ts=1712781718790,https://www.estantevirtual.com.br/busca/prf,editorial-referencia
+17,Carreiras Policiais PRF/PC — Vol. 2,Alfacon,Concursos & direito,40,110,Usado · boas condições,disponivel,conteudo/capas/livro-17.webp,https://cf.shopee.com.br/file/7a765908579a882e5b9facf5f6414c18,https://www.circulolivraria.com.br/livros/carreiras-policiais-pf-prf-pc-pm-voluem-2-3a-edicao-2020,editorial-referencia
+18,Carreiras Policiais 2020,Alfacon,Concursos & direito,35,130,Usado · boas condições,disponivel,conteudo/capas/livro-18.webp,https://cf.shopee.com.br/file/7a765908579a882e5b9facf5f6414c18,https://www.estantevirtual.com.br/livro/carreiras-policiais-2020-12W-0272-000-BK,editorial-referencia
+19,Código Alfacon (2018),Alfacon,Concursos & direito,20,100,Usado · boas condições,disponivel,conteudo/capas/livro-19.webp,https://cdn.awsli.com.br/2500x2500/2495/2495784/produto/271677401/369846-ck0knys1ec.jpg,https://www.livrariaflorence.com.br/produto/livro-codigo-alfacon-carreiras-policiais-2018-equipe-alfacon-183458,editorial-referencia
+20,5.332 Questões — Carreiras Policiais,Alfacon,Concursos & direito,35,100,Usado · boas condições,disponivel,conteudo/capas/livro-20.webp,,,ilustrativa
+21,Legislação Penal Especial,Para concursos,Concursos & direito,20,65,Usado · boas condições,disponivel,conteudo/capas/livro-21.webp,,,ilustrativa
+22,Direito Penal — 1.431 Questões,Provas e Concursos,Concursos & direito,25,75,Usado · boas condições,disponivel,conteudo/capas/livro-22.webp,https://photos.enjoei.com.br/livro-de-questoes-direito-penal/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85MjMyNDg0LzBlZmYxZmRjNjFhY2FjZmJmZThkOGYxZDUyYjg3N2NiLmpwZw,https://www.enjoei.com.br/p/livro-de-questoes-direito-penal-84905729,editorial-referencia
+23,Direito Penal — Parte Geral e Especial,Para concursos,Concursos & direito,25,80,Usado · boas condições,disponivel,conteudo/capas/livro-23.webp,https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1439076-800-800/980468.jpg?v=637780558393800000,https://www.martinsfontespaulista.com.br/direito-penal-para-concursos-980468/p,editorial-referencia
+24,Direito Processual Penal,Para concursos,Concursos & direito,20,75,Usado · boas condições,disponivel,conteudo/capas/livro-24.webp,https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhnm0yfyi48z29,https://shopee.com.br/Livro-Direito-Processual-Penal-para-concursos-alfacon-i.1339172374.58251252513,editorial-referencia
+25,Direito Processual Penal — 1.453 Questões,Provas e Concursos,Concursos & direito,25,75,Usado · boas condições,disponivel,conteudo/capas/livro-25.webp,https://img.olx.com.br/images/26/263685510901984.jpg,https://df.olx.com.br/distrito-federal-e-regiao/livros-e-revistas/livro-de-concurso-policial-1491313277,editorial-referencia
+26,Direito Administrativo — 1.563 Questões,Provas e Concursos,Concursos & direito,25,75,Usado · boas condições,disponivel,conteudo/capas/livro-26.webp,,,ilustrativa
+27,Língua Portuguesa — 1.731 Questões,Provas e Concursos,Concursos & direito,30,70,Usado · boas condições,disponivel,conteudo/capas/livro-27.webp,,,ilustrativa
+28,Informática — 1.106 Questões,Provas e Concursos,Concursos & direito,20,65,Usado · boas condições,disponivel,conteudo/capas/livro-28.webp,https://img.olx.com.br/images/30/307690744084299.jpg,https://ce.olx.com.br/fortaleza-e-regiao/livros-e-revistas/livro-alfacon-questoes-de-informatica-para-concursos-1486876754,editorial-referencia
+29,Raciocínio Lógico-Matemático — 1.075 Questões,Provas e Concursos,Concursos & direito,30,70,Usado · boas condições,disponivel,conteudo/capas/livro-29.webp,https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgt5nq2064g0bc,https://shopee.com.br/Provas-e-concursos-Racioc%C3%ADnio-l%C3%B3gico-matem%C3%A1tico-Aperfei%C3%A7oe-seu-Racioc%C3%ADnio-L%C3%B3gico-Matem%C3%A1tico-para-concursos-i.658352363.23299030386,editorial-referencia
+30,Matemática de A a Z,André Arruda e Javert Falco,Concursos & direito,35,70,Usado · boas condições,disponivel,conteudo/capas/livro-30.webp,https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1232863-800-800/878305_ampliada.jpg?v=637302120371400000,https://www.martinsfontespaulista.com.br/matematica-de-a-a-z-878305/p,editorial-referencia
+31,Gramática de A a Z — Exemplar 1,Alexandre Soares,Concursos & direito,35,75,Usado · boas condições,disponivel,conteudo/capas/livro-31.webp,https://http2.mlstatic.com/D_NQ_NP_626030-MLU50456229026_062022-O.webp,https://www.mercadolivre.com.br/livro-gramatica-de-a-a-z-de-soares-alexandre-editora-jafar-sistemas-de-ensino-e-cursos-livres-capa-mole-2019/p/MLB19270886,editorial-referencia
+32,Gramática de A a Z — Exemplar 2,Alexandre Soares,Concursos & direito,35,75,Usado · boas condições,disponivel,conteudo/capas/livro-32.webp,https://http2.mlstatic.com/D_NQ_NP_626030-MLU50456229026_062022-O.webp,https://www.mercadolivre.com.br/livro-gramatica-de-a-a-z-de-soares-alexandre-editora-jafar-sistemas-de-ensino-e-cursos-livres-capa-mole-2019/p/MLB19270886,editorial-referencia
+33,Teoria & Texto — Redação,Para concursos,Concursos & direito,25,60,Usado · boas condições,disponivel,conteudo/capas/livro-33.webp,https://images-na.ssl-images-amazon.com/images/I/81JKKduZ6-L.jpg,https://indicalivros.com/livros/teoria-e-texto-redacao-giancarla-bombonato-janaina-arruda,editorial-referencia
+34,Interpretação Textual,Arnaldo dos Santos e Alexandre Soares,Concursos & direito,20,45,Usado · boas condições,disponivel,conteudo/capas/livro-34.webp,https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5bz2vnu2she29,https://shopee.com.br/Livro-Interpreta%C3%A7%C3%A3o-textual-Linhas-e-Entrelinhas-Alexandre-Soares-Alfacon-i.487500087.23598156547,editorial-referencia
+35,Questões de Bolso — PRF,Para concursos,Concursos & direito,15,35,Usado · boas condições,disponivel,conteudo/capas/livro-35.webp,,,ilustrativa
+36,"PC/RS — Escrivão e Inspetor, Vol. 1",Para concursos,Concursos & direito,25,90,Usado · boas condições,disponivel,conteudo/capas/livro-36.webp,,,ilustrativa
+37,"PC/RS — Escrivão e Inspetor, Vol. 2",Para concursos,Concursos & direito,25,90,Usado · boas condições,disponivel,conteudo/capas/livro-37.webp,,,ilustrativa
+38,Upgrade — Vol. 2,Para concursos,Concursos & direito,20,60,Usado · boas condições,disponivel,conteudo/capas/livro-38.webp,,,ilustrativa
+39,Autodesk 3DS Max 8,Adriana Vieira,Técnicos & outros,20,90,Usado · boas condições,disponivel,conteudo/capas/livro-39.webp,,,ilustrativa
+40,Design de Personagens para Games — Vol. 1,Alessandro Lima,Técnicos & outros,30,75,Usado · boas condições,disponivel,conteudo/capas/livro-40.webp,,,ilustrativa
+41,Estatuto da Cidade,Legislação,Técnicos & outros,15,40,Usado · boas condições,disponivel,conteudo/capas/livro-41.webp,,,ilustrativa
+42,Gestão do Conhecimento — título a confirmar,Técnico,Técnicos & outros,20,60,Usado · boas condições,disponivel,conteudo/capas/livro-42.webp,,,ilustrativa
+43,Apostila HP 12C,Material didático,Técnicos & outros,15,35,Usado · boas condições,disponivel,conteudo/capas/livro-43.webp,,,ilustrativa
+44,Caderno de Questões / Simulado Alfacon,Alfacon,Técnicos & outros,15,40,Usado · boas condições,disponivel,conteudo/capas/livro-44.webp,,,ilustrativa
