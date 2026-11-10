@@ -13,7 +13,7 @@
  }
  const state={term:'',category:'Todos os livros',sort:'default',selected:restoreSelection()};
  const saveSelection=()=>{try{localStorage.setItem(SAVED_KEY,JSON.stringify([...state.selected]));}catch{}};
- const categoryLabels={'Leitura & literatura':'Literatura & ideias','Concursos & direito':'Concursos & direito','Técnicos & outros':'Técnicos & outros'};
+ const categoryLabels={'Leitura & literatura':'Literatura & ideias','Concursos & direito':'Concursos & direito','Técnicos & outros':'Técnicos & outros','Romances & ficção':'Romances & ficção','Bem-estar & ideias':'Bem-estar & ideias','TAG & edições especiais':'Edições TAG'};
  const categories=['Todos os livros',...new Set(books.map(b=>b.category))];
  const calcTotal=()=>books.filter(b=>state.selected.has(b.id)).reduce((acc,b)=>acc+(Number(b.price)||0),0);
  const available=book=>book.status!=='vendido';
@@ -23,6 +23,7 @@
  const whatsapp=(message)=>`https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
  const toast=(msg)=>{const t=el('toast'); t.textContent=msg;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),2800);};
  function filtered(){let arr=books.filter(b=>(state.category==='Todos os livros'||b.category===state.category) && normalize(`${b.title} ${b.author} ${b.category}`).includes(normalize(state.term)));
+  if(state.sort==='default')arr.sort((a,b)=>Number(b.id>=45)-Number(a.id>=45)||b.id-a.id);
   if(state.sort==='price-asc')arr.sort((a,b)=>a.price-b.price);
   if(state.sort==='price-desc')arr.sort((a,b)=>b.price-a.price);
   if(state.sort==='name')arr.sort((a,b)=>a.title.localeCompare(b.title,'pt-BR'));
@@ -31,7 +32,7 @@
  }
  function card(b){const chosen=state.selected.has(b.id);const sold=!available(b);
   return `<article class="book-card" aria-label="${esc(b.title)}">
-   <div class="cover-zone"><span class="tag ${sold?'tag-muted':''}">${sold?'VENDIDO':'SEBO • USADO'}</span><img src="${esc(imageSrc(b))}" alt="${esc(coverAlt(b))}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="560" height="800" onerror="this.onerror=null;this.src='${esc(b.cover)}';if(this.nextElementSibling){this.nextElementSibling.textContent='CAPA ILUSTRATIVA';this.nextElementSibling.classList.remove('official-note');}"><span class="cover-note ${b.coverOnline?'official-note':''}">${coverNote(b)}</span></div>
+   <div class="cover-zone"><span class="tag ${sold?'tag-muted':''}">${sold?'VENDIDO':b.id>=45?'✦ NOVIDADE':'SEBO • USADO'}</span><img src="${esc(imageSrc(b))}" alt="${esc(coverAlt(b))}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="560" height="800" onerror="this.onerror=null;this.src='${esc(b.cover)}';if(this.nextElementSibling){this.nextElementSibling.textContent='CAPA ILUSTRATIVA';this.nextElementSibling.classList.remove('official-note');}"><span class="cover-note ${b.coverOnline?'official-note':''}">${coverNote(b)}</span></div>
    <div class="book-body"><div class="book-cat">${esc(categoryLabels[b.category]||b.category)}</div>
    <h3>${esc(b.title)}</h3><p class="book-author">${esc(b.author)}</p>
    <div class="book-condition">${esc(b.condition||'Usado · boas condições')}</div>

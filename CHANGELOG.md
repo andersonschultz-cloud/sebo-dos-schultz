@@ -1,3 +1,11 @@
+## v4.0 — 10/11/2026
+- 31 livros novos adicionados ao catálogo (total: 75).
+- Preços de referência de mercado estimados e preços sugeridos de venda em todos os livros novos.
+- 31 capas ilustrativas locais; imagens de editoras/livrarias priorizadas quando localizadas.
+- Duas novas fotos reais em `conteudo/fotos/`.
+- Filtros e selo NOVIDADE, lançamentos primeiro.
+- Documentação das novas obras e ressalvas sobre kits TAG e edição.
+
 ## v3 — capas editoriais de referência
 - 27 referências editoriais online com fallback WebP local.
 - Separação visual entre capa de referência e ilustração.

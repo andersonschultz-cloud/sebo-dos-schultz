@@ -3,9 +3,9 @@
 Site de catálogo estático, responsivo e pronto para **GitHub Pages**, sem dependências, frameworks ou compilação.
 
 ## ✅ O que está incluído
-- **44 exemplares** (preços unitários e referências estimadas) cadastrados em `conteudo/dados/livros.js`.
-- **27 referências de capas editoriais oficiais** por URL pública, com **44 capas ilustrativas locais de segurança**, em WebP, dentro de `conteudo/capas/` (além das fontes SVG editáveis). As imagens de editoras e livrarias não são incorporadas ao ZIP.
-- **3 fotos reais** do acervo em `conteudo/fotos/`.
+- **75 exemplares** (preços unitários e referências estimadas) cadastrados em `conteudo/dados/livros.js`.
+- **45 referências de capas editoriais** por URL pública, com **75 capas ilustrativas locais de segurança**, em WebP, dentro de `conteudo/capas/` (além das fontes SVG editáveis). As imagens de editoras e livrarias não são incorporadas ao ZIP.
+- **5 fotos reais** do acervo em `conteudo/fotos/`.
 - Busca, filtros, ordenação, seleção de livros, soma dos preços e pedido pelo WhatsApp.
 - Contatos: WhatsApp **(51) 98613-3553** e Instagram **@andersonschultz**.
 
@@ -30,7 +30,7 @@ Abra `conteudo/dados/livros.js`. Cada livro possui:
   "price": 40,
   "reference": 60,
   "category": "Leitura & literatura",
-  "cover": "conteudo/capas/livro-02.svg",
+  "cover": "conteudo/capas/livro-02.webp",
   "status": "disponivel"
 }
 ```
@@ -66,9 +66,9 @@ sebo-dos-schultz/
 │   ├── js/app.js             # pesquisa, filtros, carrinho e links
 │   └── favicon.svg
 ├── conteudo/
-│   ├── capas/livro-01.webp ... livro-44.webp (exibidos no site)
-│   ├── capas/livro-01.svg ... livro-44.svg (fontes para edição)
-│   ├── fotos/acervo-01.jpg ... acervo-03.jpg
+│   ├── capas/livro-01.webp ... livro-75.webp (exibidos no site)
+│   ├── capas/livro-01.svg ... livro-75.svg (fontes para edição)
+│   ├── fotos/acervo-01.jpg ... acervo-05.jpg
 │   └── dados/livros.js       # fonte única usada pelo site
 │              livros.csv     # exportação de apoio
 ├── docs/
@@ -86,7 +86,7 @@ A versão inicial possuía XML inválido em todas as 44 artes SVG: o caractere `
 
 Nesta versão, **todos os SVGs foram corrigidos e validados**. O catálogo usa imagens **WebP locais**, já convertidas, para maior compatibilidade. Elas não dependem de links externos nem de APIs, inclusive no GitHub Pages em `/sebo-dos-schultz/`.
 
-Para atualizar o site que já está no GitHub, substitua os arquivos existentes com os arquivos **de dentro da pasta raiz do ZIP**. Faça commit e aguarde a publicação do Pages. Se aparecer uma cópia antiga, use `Ctrl + F5` (Windows) ou abra em aba anônima. CSS e JS recebem `?v=2` para evitar cache.
+Para atualizar o site que já está no GitHub, substitua os arquivos existentes com os arquivos **de dentro da pasta raiz do ZIP**. Faça commit e aguarde a publicação do Pages. Se aparecer uma cópia antiga, use `Ctrl + F5` (Windows) ou abra em aba anônima. CSS e JS recebem `?v=4` para reduzir problemas de cache.
 
 A seleção de livros é salva automaticamente no navegador local (sem conta e sem envio de dados). Não é uma reserva de estoque.
 
@@ -98,3 +98,9 @@ O workflow `.github/workflows/validar-site.yml` executa `python scripts/verifica
 
 ## 🖼️ Atualização v3 — capas editoriais
 Foram identificadas **27 capas editoriais de referência** (incluindo títulos com mais de um exemplar). Elas são carregadas de seus provedores originais com fallback local imediato no erro. Não há garantia de que o provedor permitirá hotlink indefinidamente; se a capa editorial não carregar, a imagem ilustrativa local aparecerá. Algumas capas são de edições ou tiragens semelhantes, não confirmadas como idênticas ao acervo. Consulte `docs/CAPAS-OFICIAIS.md`.
+
+## 🆕 Atualização v4 (10/11/2026)
+
+Foram adicionados 31 livros das fotografias mais recentes, totalizando **75 livros**. Os novos títulos aparecem primeiro na ordenação padrão e levam selo de novidade. Foram incluídas 2 novas fotografias do acervo e categorias de romance, bem-estar e TAG. Consulte `docs/NOVIDADES-2026-11-10.md` para a lista completa, preços e ressalvas.
+
+**Importante:** o valor de referência **não é o preço pago** pelos exemplares; para obras TAG pode ser o preço estimado de um kit com adicionais, que não são garantidos. Os preços são sugestões e podem ser editados em `conteudo/dados/livros.js`. Não há capa oficial garantida em todos os volumes: imagens editoriais remotas são usadas quando disponíveis, com arte local marcada como ilustrativa quando não houver. Há ainda um exemplar vermelho parcialmente encoberto que não foi identificado e, por isso, não foi cadastrado.

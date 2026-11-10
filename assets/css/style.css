@@ -23,3 +23,10 @@
 .cover-zone .official-note{background:#fdfbf0;color:#244c3c;border:1px solid #c5ad72;box-shadow:0 3px 10px #153c2920}
 .cover-zone img{font-size:0}
 @media(max-width:560px){.cover-zone .official-note{font-size:6.5px;letter-spacing:0;padding:5px 4px}}
+
+/* v4 — fotos novas e catálogo ampliado */
+.photos{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));}
+.photos img{object-fit:cover;max-height:280px;}
+.book-card .cover-zone{background:linear-gradient(155deg,#e7e5dc,#f4f1e9);}
+.book-card .cover-zone img{object-fit:contain;}
+@media(max-width:720px){.photos{grid-template-columns:repeat(2,minmax(0,1fr));}.photos img{max-height:200px;}}
